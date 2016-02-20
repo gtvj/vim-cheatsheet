@@ -23,6 +23,9 @@ Having done either of these you can repeat the change at other places in the
 document. This also extends to paragraphs, tags (for XML), quotes, parentheses
 and brackets. 
 
+Note: using W will allow you to change something like a dot separated class
+name.
+
 ## Moving quickly
 
 ## Moving the cursor
