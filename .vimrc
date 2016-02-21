@@ -16,7 +16,6 @@ if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
 endif
 
 filetype plugin indent on
-
 " When the type of shell script is /bin/sh, assume a POSIX-compatible
 " shell for syntax highlighting purposes.
 let g:is_posix = 1
@@ -39,6 +38,7 @@ set colorcolumn=+1
 
 " Numbers
 set number
+set relativenumber
 set numberwidth=5
 
 " Switch between the last two files
@@ -76,3 +76,6 @@ set diffopt+=vertical
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
+
+" Colorscheme
+colorscheme pablo
