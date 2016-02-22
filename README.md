@@ -45,3 +45,8 @@ avoid that:
 * Ctrl+[e|y] moves the viewport
 * z[z|b|t] moves the viewport so that your current line is at the
   middle/bottom/top of the screen
+
+## Quick 'on the fly' calculations
+
+* Ctrl+r = 8 * 2 will result in '16' (the calculation result) into the current
+  cursor position.
