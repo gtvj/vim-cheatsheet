@@ -46,7 +46,23 @@ avoid that:
 * z[z|b|t] moves the viewport so that your current line is at the
   middle/bottom/top of the screen
 
+## Using tabs
+
+Tabs can be extremely useful when working with multiple files simultaneously.
+Here are a few tips for tabs, all of which are ':' commands:
+
+* vim -p file_one.txt, file_two.txt will open the corresponding files within
+  tabs. Good for startup.
+* Texplore will open file explorer within a new tab
+* :tabn [file] will open a new tab (containing the file, if one is passed or an
+  empty buffer if not)
+* :tabo closes all but the current tab
+* gt moves to the next tab, gT to the previous
+* :tabdo will run a command (such as search/replace) over all open tabs
+
 ## Quick 'on the fly' calculations
 
 * Ctrl+r = 8 * 2 will result in '16' (the calculation result) into the current
   cursor position.
+
+
