@@ -1,3 +1,5 @@
+" Using pathogen 
+execute pathogen#infect()
 " Leader
 let mapleader = " "
 
