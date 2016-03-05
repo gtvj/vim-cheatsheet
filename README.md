@@ -45,3 +45,11 @@ avoid that:
 * Ctrl+[e|y] moves the viewport
 * z[z|b|t] moves the viewport so that your current line is at the
   middle/bottom/top of the screen
+
+## Search
+
+Good search features are:
+
+* Having performed a search, hit 'n' to find the next occurence.
+* Hitting '*' will find the next occurence of the current word.
+  Similarly, hittiing '#' will find the previous.
