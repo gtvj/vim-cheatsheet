@@ -54,6 +54,16 @@ Good search features are:
 * Hitting '*' will find the next occurence of the current word.
   Similarly, hittiing '#' will find the previous.
 
+### Replacing
+
+For replacement I use:
+
+* `:%s/<pattern>/<replacement>/g` - to replace all occurencences of an
+  item across all lines. **Note: without the 'g' it'll only do the
+first instance on all lines**.
+* `5,40s/<pattern>/<replacement>/g` - will replace across the stated
+  lines.
+
 ## Using tabs
 
 Tabs can be extremely useful when working with multiple files simultaneously.
