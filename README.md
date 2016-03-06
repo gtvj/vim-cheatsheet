@@ -78,6 +78,13 @@ Here are a few tips for tabs, all of which are ':' commands:
 * gt moves to the next tab, gT to the previous
 * :tabdo will run a command (such as search/replace) over all open tabs
 
+## Interacting with the shell
+Two very quick ways of interacting with the shell are:
+
+* `:shell` will drop you into a full shell. You can then return to Vim
+  by exiting this shell. 
+* `:!` allows you to run a single shell command. 
+
 ## Quick 'on the fly' calculations
 
 * Ctrl+r = 8 * 2 will result in '16' (the calculation result) into the current
