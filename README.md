@@ -89,3 +89,7 @@ Two very quick ways of interacting with the shell are:
 
 * Ctrl+r = 8 * 2 will result in '16' (the calculation result) into the current
   cursor position.
+
+## Sorting
+
+The `:sort` command provides an easy means of sorting
