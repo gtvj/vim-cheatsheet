@@ -7,6 +7,9 @@ productivity.
 
 Please get in touch if anything doesn't make sense.
 
+## Avoid the Esc key
+Ctrl+[ is equivalent to hitting esc. Worth remembering that.
+
 ## Change/Delete 'inner' X
 
 This series of commands allow you to delete or change the a construct and -
@@ -30,7 +33,7 @@ name.
 
 ### Copying with :t
 * `:29t.` will **copy line 29** to just below the current text (note the
-  '.')
+    '.')
 * `:t29` will copy the current line to just below line 29
 
 ### Moving with :m
@@ -54,7 +57,7 @@ avoid that:
 * Ctrl+[d|u] page the viewport down/up
 * Ctrl+[e|y] moves the viewport
 * z[z|b|t] moves the viewport so that your current line is at the
-  middle/bottom/top of the screen
+middle/bottom/top of the screen
 
 ## Search
 
@@ -62,17 +65,17 @@ Good search features are:
 
 * Having performed a search, hit 'n' to find the next occurence.
 * Hitting '*' will find the next occurence of the current word.
-  Similarly, hittiing '#' will find the previous.
+Similarly, hittiing '#' will find the previous.
 
 ### Replacing
 
 For replacement I use:
 
 * `:%s/<pattern>/<replacement>/g` - to replace all occurencences of an
-  item across all lines. **Note: without the 'g' it'll only do the
+item across all lines. **Note: without the 'g' it'll only do the
 first instance on all lines**.
 * `5,40s/<pattern>/<replacement>/g` - will replace across the stated
-  lines.
+lines.
 
 ## Using tabs
 
@@ -80,10 +83,10 @@ Tabs can be extremely useful when working with multiple files simultaneously.
 Here are a few tips for tabs, all of which are ':' commands:
 
 * vim -p file_one.txt, file_two.txt will open the corresponding files within
-  tabs. Good for startup.
+tabs. Good for startup.
 * Texplore will open file explorer within a new tab
 * :tabn [file] will open a new tab (containing the file, if one is passed or an
-  empty buffer if not)
+    empty buffer if not)
 * :tabo closes all but the current tab
 * gt moves to the next tab, gT to the previous
 * :tabdo will run a command (such as search/replace) over all open tabs
@@ -92,13 +95,13 @@ Here are a few tips for tabs, all of which are ':' commands:
 Two very quick ways of interacting with the shell are:
 
 * `:shell` will drop you into a full shell. You can then return to Vim
-  by exiting this shell. 
+by exiting this shell. 
 * `:!` allows you to run a single shell command. 
 
 ## Quick 'on the fly' calculations
 
 * Ctrl+r = 8 * 2 will result in '16' (the calculation result) into the current
-  cursor position.
+cursor position.
 
 ## Sorting
 
