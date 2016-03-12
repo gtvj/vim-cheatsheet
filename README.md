@@ -26,9 +26,19 @@ and brackets.
 Note: using W will allow you to change something like a dot separated class
 name.
 
+## Copying and moving text
+
+### Copying with :t
+* `:29t.` will **copy line 29** to just below the current text (note the
+  '.')
+* `:t29` will copy the current line to just below line 29
+
+### Moving with :m
+* Having made a visual selection `:m26` will move the selection to after line 26
+
 ## Moving quickly
 
-## Moving the cursor
+### Moving the cursor
 
 Repeated keystrokes are considered an antipattern in Vim. Here are a few ways to
 avoid that:
