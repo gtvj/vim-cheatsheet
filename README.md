@@ -74,6 +74,8 @@ For replacement I use:
 * `:%s/<pattern>/<replacement>/g` - to replace all occurencences of an
 item across all lines. **Note: without the 'g' it'll only do the
 first instance on all lines**.
+* `:%s/<pattern>/<replacement>/gc` - adding the `c` option will prompt 
+for confirmation before any change (very handy)
 * `5,40s/<pattern>/<replacement>/g` - will replace across the stated
 lines.
 
