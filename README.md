@@ -69,8 +69,9 @@ Similarly, hittiing '#' will find the previous.
 
 ### Replacing
 
-For replacement I use:
+For replacement I use:-
 
+* `:s/<pattern>/<replacement/g` - replaces all occurences in **the current line**. Withouth the `g` option it will only replace the first item in the current line.
 * `:%s/<pattern>/<replacement>/g` - to replace all occurencences of an
 item across all lines. **Note: without the 'g' it'll only do the
 first instance on all lines**.
