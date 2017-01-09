@@ -7,6 +7,10 @@ productivity.
 
 Please get in touch if anything doesn't make sense.
 
+## Insert a line below or above
+* o will insert a line below
+* O will insert a line above
+
 ## Avoid the Esc key
 Ctrl+[ is equivalent to hitting esc. Worth remembering that.
 
