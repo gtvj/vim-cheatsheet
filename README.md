@@ -11,6 +11,9 @@ Please get in touch if anything doesn't make sense.
 * o will insert a line below
 * O will insert a line above
 
+## Join two lines
+J will join two lines
+
 ## Avoid the Esc key
 Ctrl+[ is equivalent to hitting esc. Worth remembering that.
 
