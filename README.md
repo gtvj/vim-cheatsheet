@@ -70,7 +70,7 @@ middle/bottom/top of the screen
 
 Good search features are:
 
-* Hit `/` to initiate a search. Similarly, prepending `\v` to your search this will have it run in 'very magic mode' which means you don't have to escape all your metacharacters (a somewhat annoying thing in Vim). An example would be /\v
+* Hit `/` to initiate a search. Similarly, prepending `\v` to your search this will have it run in 'very magic mode' which means you don't have to escape all your metacharacters (a somewhat annoying thing in Vim). An example would be `cart?` to find 'car' and 'cart'
 * Having performed a search, hit 'n' to find the next occurence.
 * Hitting '*' will find the next occurence of the current word.
 Similarly, hittiing '#' will find the previous.
