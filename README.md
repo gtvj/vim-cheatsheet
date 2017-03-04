@@ -46,6 +46,9 @@ name.
 ### Moving with :m
 * Having made a visual selection `:m26` will move the selection to after line 26
 
+## Indenting
+Use `>` to indent a line or block.
+
 ## Moving quickly
 
 ### Moving the cursor
